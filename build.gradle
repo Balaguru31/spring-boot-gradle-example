@@ -18,7 +18,6 @@ apply plugin: 'org.springframework.boot'            // plugin for spring boot fr
 
 jar {
     baseName = 'spring-boot-gradle-example'             // jar file name
-    version =  '1.0.0'                                  // application version
 }
 
 dependencies {
@@ -30,8 +29,6 @@ sourceCompatibility = 1.8                               // for Java 1.8
 targetCompatibility = 1.8
 
 group 'spring-boot-demo'
-version '1.0-SNAPSHOT'
-
 
 
 
