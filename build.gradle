@@ -22,7 +22,9 @@ jar {
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")     // web application dependency
-    compile("org.springframework.boot:spring-boot-starter-thymeleaf")  
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile("org.springframework.boot:spring-boot-starter-test")
+    compile("org.junit.jupiter:junit-jupiter-engine:5.0.3")
 }
 
 sourceCompatibility = 1.8                               // for Java 1.8
