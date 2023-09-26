@@ -24,7 +24,13 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")     // web application dependency
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-starter-test")
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("mysql:mysql-connector-java")
+    compile("javax.xml.bind:jaxb-api:2.3.0")
     compile("org.junit.jupiter:junit-jupiter-engine:5.0.3")
+    compile("mysql:mysql-connector-java:5.1.46")
+    compile("commons-lang:commons-lang:2.6")
+    
 }
 
 sourceCompatibility = 1.8                               // for Java 1.8
